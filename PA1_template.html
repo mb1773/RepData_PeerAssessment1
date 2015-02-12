@@ -146,11 +146,11 @@ weekdaymeansteps &lt;- tapply(newdata$steps, list(newdata$interval, newdata$WD),
 <pre class="r"><code>par(mfrow = c(2,1))
 
 with(newdata, {
-##  par(maj = c(1, 1, 1, 1))
+
   plot(weekdaymeansteps[,1],type = &quot;l&quot;, col = &quot;Blue&quot;, main = (&quot;Steps in each Interval&quot;),
        xlab = &quot;Interval&quot;, ylab = &quot;Weekend&quot;)
   title = (&quot;# of Steps per Interval&quot;)
-##  par(maj = c(1, 1, 1 , 1)
+
   plot(weekdaymeansteps[, 2], type = &quot;l&quot;, col = &quot;Blue&quot;, 
        xlab=&quot;Interval&quot;, ylab = &quot;Weekdays&quot;)
 })</code></pre>
