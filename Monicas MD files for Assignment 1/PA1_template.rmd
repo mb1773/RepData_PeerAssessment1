@@ -2,7 +2,11 @@
 title: "PA1_template"
 author: "Monica Mitchell (mb1773)"
 date: "Wednesday, February 11, 2015"
-output: html_document
+output:
+  html_document:
+    fig_caption: yes
+    keep_md: yes
+    number_sections: yes
 ---
 
 
@@ -132,3 +136,4 @@ with(newdata, {
 })
 
 ```
+
